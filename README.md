@@ -7,7 +7,7 @@
 ### run script
 pipe a node.js script to docker run
 
-    curl -s https://raw.github.com/AoJ/docker-fann/master/examples/xor.js | docker run -i aooj/fann:1.0 node
+    curl -s https://raw.github.com/AoJ/docker-fann/master/examples/xor.js | docker run -i aooj/fann:latest node
 
 result
 
